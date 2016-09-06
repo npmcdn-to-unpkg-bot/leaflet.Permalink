@@ -30,12 +30,12 @@ Here is everything you need to get this up and running. Copy and past the follow
 <head>
 	<meta charset="UTF-8">
 	<title>Leaflet.Permalink DEMO</title>
-	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.1/dist/leaflet.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.1/dist/leaflet.css" />
 	<style>html,body{margin:0;}#map{width:100vw;height:100vh;}</style>
 </head>
 <body>
 	<div id="map"></div>
-	<script src="https://npmcdn.com/leaflet@1.0.0-rc.1/dist/leaflet.js"></script>
+	<script src="https://unpkg.com/leaflet@1.0.0-rc.1/dist/leaflet.js"></script>
 	<script src="https://rawgit.com/MarcChasse/leaflet.Permalink/master/leaflet.permalink.min.js"></script>
 	<script>
 	    osm = new L.TileLayer(
